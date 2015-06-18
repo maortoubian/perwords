@@ -3,7 +3,7 @@ var app = express();
 
 var mongoose = require('./mongoose_connect');
 
-app.get('/word', function(req,res){
+app.get('/', function(req,res) {
 
 	res.header("Access-Control-Allow-Origin", "*");
 	res.header("Access-Control-Allow-Header", "Origin, X-Requested-With,Content-Type, Accept");
